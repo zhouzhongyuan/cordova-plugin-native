@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-native" version="0.0.1">
+    <name>Native</name>
+    <description>Cordova Native Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,native</keywords>
+    <js-module src="www/native.js" name="native"> <!--name: 使用cordova.require才有作用,任意-->
+        <clobbers target="native" /> <!--clobbers: javascript文件中module.exports 的别名,可以是zhongyuan等任意值-->
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="EchoABC">  <!--javascript中的第二个参数(Echo),可随意设置-->
+                <param name="ios-package" value="Native"/>  <!--value: 类名,因为Native.h中定义了Native类,所以此处不可变-->
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/Resourse/Base/RootNavigationController.h" />
+        <source-file src="src/ios/Resourse/Base/RootNavigationController.m" />
+
+        <header-file src="src/ios/Resourse/Base/RootTableView.h" />
+        <source-file src="src/ios/Resourse/Base/RootTableView.m" />
+
+        <header-file src="src/ios/Resourse/Base/RootViewController.h" />
+        <source-file src="src/ios/Resourse/Base/RootViewController.m" />
+
+        <header-file src="src/ios/Resourse/Categorys/NSDate+Utils.h" />
+        <source-file src="src/ios/Resourse/Categorys/NSDate+Utils.m" />
+
+        <header-file src="src/ios/Resourse/Categorys/NSDate-Utilities.h" />
+        <source-file src="src/ios/Resourse/Categorys/NSDate-Utilities.m" />
+
+        <header-file src="src/ios/Resourse/Categorys/UIAlertView+ICBlockAdditions.h" />
+        <source-file src="src/ios/Resourse/Categorys/UIAlertView+ICBlockAdditions.m" />
+
+        <header-file src="src/ios/Resourse/Categorys/UIColor+Extension.h" />
+        <source-file src="src/ios/Resourse/Categorys/UIColor+Extension.m" />
+
+        <header-file src="src/ios/Resourse/Categorys/UIViewController+JY.h" />
+        <source-file src="src/ios/Resourse/Categorys/UIViewController+JY.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Controllers/FirstController.h" />
+        <source-file src="src/ios/Resourse/Classes/Controllers/FirstController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Controllers/FunctionManagementController.h" />
+        <source-file src="src/ios/Resourse/Classes/Controllers/FunctionManagementController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Controllers/SelectCustomerController.h" />
+        <source-file src="src/ios/Resourse/Classes/Controllers/SelectCustomerController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Models/CustomerModel.h" />
+        <source-file src="src/ios/Resourse/Classes/Models/CustomerModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Models/CutomerJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/Models/CutomerJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Models/UserJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/Models/UserJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/Models/UserModel.h" />
+        <source-file src="src/ios/Resourse/Classes/Models/UserModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailBasicController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailBasicController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailGoodController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailGoodController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailPromotionController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListDetailPromotionController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListUnupController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListUnupController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListUpController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/PlaceOrderListUpController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrderList/Views/PlaceOrderListCell.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrderList/Views/PlaceOrderListCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/PlaceOrderList/Views/PlaceOrderListCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/GoodInfoController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/GoodInfoController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderBasicController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderBasicController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderGoodController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderGoodController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderPromotionController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PlaceOrderPromotionController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PromotionGoodController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PromotionGoodController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PromotionSendController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/PromotionSendController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/SearchMaterialController.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/SearchMaterialController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialPriceJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialPriceJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialPriceModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialPriceModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PlaceOrderGoodModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PlaceOrderGoodModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PlaceOrderModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PlaceOrderModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionGoodModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionGoodModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionRuleJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionRuleJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionRuleModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionRuleModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionTypeJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionTypeJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionTypeModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/PromotionTypeModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/StockJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/StockJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/StockModel.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/StockModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Views/PromotionCell.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Views/PromotionCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/PlaceOrders/Views/PromotionCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Views/PromotionGoodCell.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Views/PromotionGoodCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/PlaceOrders/Views/PromotionGoodCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListDetailController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListDetailController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListUnupController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListUnupController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListUpController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrderList/RetreatOrderListUpController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatOrderGoodModel.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatOrderGoodModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatOrderModel.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatOrderModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatReasonJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatReasonJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatReasonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/Models/RetreatReasonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/RetreatGoodInfoController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/RetreatGoodInfoController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/RetreatOrderController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/RetreatOrderController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/SelectRetreatReasonController.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/SelectRetreatReasonController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/Views/PhotographCell.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/Views/PhotographCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/RetreatOrders/Views/PhotographCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/RetreatOrders/Views/RetreatGoodCell.h" />
+        <source-file src="src/ios/Resourse/Classes/RetreatOrders/Views/RetreatGoodCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/RetreatOrders/Views/RetreatGoodCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchActivity/ActivityCell.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchActivity/ActivityCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/SearchActivity/ActivityCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchActivity/MaterialGroupJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchActivity/MaterialGroupJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchActivity/MaterialGroupModel.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchActivity/MaterialGroupModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchActivity/SearchActivityController.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchActivity/SearchActivityController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/FilterCustomerController.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/FilterCustomerController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/Models/CustomerGroupJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/Models/CustomerGroupJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/Models/CustomerGroupModel.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/Models/CustomerGroupModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/Models/DistributionChannelJsonModel.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/Models/DistributionChannelJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/Models/DistributionChannelModel.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/Models/DistributionChannelModel.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/PriceCell.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/PriceCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/SearchPrice/PriceCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchPrice/SearchPriceController.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchPrice/SearchPriceController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchStocks/SearchStockController.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchStocks/SearchStockController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/SearchStocks/StockCell.h" />
+        <source-file src="src/ios/Resourse/Classes/SearchStocks/StockCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/SearchStocks/StockCell.xib" />
+
+        <header-file src="src/ios/Resourse/Classes/VIews/ManagementCollectionCell.h" />
+        <source-file src="src/ios/Resourse/Classes/VIews/ManagementCollectionCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/VIews/ManagementCollectionCell.xib" />
+
+        <header-file src="src/ios/Resourse/Depentds/AccessControl/IOSAuthorized.h" />
+        <source-file src="src/ios/Resourse/Depentds/AccessControl/IOSAuthorized.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/CommonTableView/CommonTableView.h" />
+        <source-file src="src/ios/Resourse/Depentds/CommonTableView/CommonTableView.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/HCCreateQRCode.h" />
+        <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/HCCreateQRCode.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/HCHeader.h" />
+        <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/HCScanQRViewController.h" />
+        <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/HCScanQRViewController.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/Utils/UIFont+MyFont.h" />
+        <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/Utils/UIFont+MyFont.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/Utils/UIView+Frame.h" />
+        <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/Utils/UIView+Frame.m" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/ring.wav" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanBackground@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanBackground@3x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanLine@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanLine@3x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/turn_off.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/turn_on.png" />
+
+        <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/model/SystemFunctions.h" />
+        <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/model/SystemFunctions.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/BaseJsonModel.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/BaseJsonModel.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONKeyMapper.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONKeyMapper.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONModel+CoreData.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONModel+CoreData.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONModel.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONModel.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONModelArray.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONModelArray.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONModelClassProperty.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONModelClassProperty.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONModelError.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONModelError.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/JSONValueTransformer.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/JSONValueTransformer.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JSONModel/NSArray+JSONModel.h" />
+        <source-file src="src/ios/Resourse/Depentds/JSONModel/NSArray+JSONModel.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JYTimePickerView.h" />
+        <source-file src="src/ios/Resourse/Depentds/JYTimePickerView.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/JudgeCustomerOptional.h" />
+        <source-file src="src/ios/Resourse/Depentds/JudgeCustomerOptional.m" />
+
+        <resource-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.bundle/bgImage_HL@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.bundle/cellLine@2x.png" />
+
+        <header-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.h" />
+        <source-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupBackgroundView.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupBackgroundView.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationDrop.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationDrop.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationFade.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationFade.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationSlide.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationSlide.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationSpring.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewAnimationSpring.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/LewPopupViewController.h" />
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/PopupView.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/PopupView.m" />
+
+        <resource-file src="src/ios/Resourse/Depentds/PopupViewController/PopupView.xib" />
+
+        <header-file src="src/ios/Resourse/Depentds/PopupViewController/UIViewController+LewPopupViewController.h" />
+        <source-file src="src/ios/Resourse/Depentds/PopupViewController/UIViewController+LewPopupViewController.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVIndefiniteAnimatedView.h" />
+        <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVIndefiniteAnimatedView.m" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD-Prefix.pch" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/angle-mask.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/angle-mask@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/angle-mask@3x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/error.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/error@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/error@3x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/info.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/info@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/info@3x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/success.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/success@2x.png" />
+
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/success@3x.png" />
+
+        <header-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.h" />
+        <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVRadialGradientLayer.h" />
+        <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVRadialGradientLayer.m" />
+
+        <header-file src="src/ios/Resourse/Depentds/SVProgressHUD/Sigleton.h" />
+        <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/Sigleton.m" />
+
+        <header-file src="src/ios/Resourse/Macro/Macro.h" />
+        <resource-file src="src/ios/Resourse/Macro/PrefixHeader.pch" />
+
+
+
+
+
+
+        <header-file src="src/ios/Native.h" />
+        <source-file src="src/ios/Native.m" />
+    </platform>
+</plugin>
