@@ -15,6 +15,9 @@
             </feature>
         </config-file>
 
+        <header-file src="src/ios/Resourse/Base/CoredataDelegate.h" />
+        <source-file src="src/ios/Resourse/Base/CoredataDelegate.m" />
+
         <header-file src="src/ios/Resourse/Base/RootNavigationController.h" />
         <source-file src="src/ios/Resourse/Base/RootNavigationController.m" />
 
@@ -39,6 +42,7 @@
         <header-file src="src/ios/Resourse/Categorys/UIViewController+JY.h" />
         <source-file src="src/ios/Resourse/Categorys/UIViewController+JY.m" />
 
+        <header-file src="src/ios/Resourse/Classes/Controllers/CloseDelegate.h" />
         <header-file src="src/ios/Resourse/Classes/Controllers/FirstController.h" />
         <source-file src="src/ios/Resourse/Classes/Controllers/FirstController.m" />
 
@@ -109,6 +113,11 @@
 
         <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/SearchMaterialController.h" />
         <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/SearchMaterialController.m" />
+
+        <header-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/WorkDetailSecondCell.h" />
+        <source-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/WorkDetailSecondCell.m" />
+
+        <resource-file src="src/ios/Resourse/Classes/PlaceOrders/Controllers/WorkDetailSecondCell.xib" />
 
         <header-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialJsonModel.h" />
         <source-file src="src/ios/Resourse/Classes/PlaceOrders/Models/MaterialJsonModel.m" />
@@ -397,14 +406,11 @@
         <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/Sigleton.m" />
 
         <header-file src="src/ios/Resourse/Macro/Macro.h" />
-        <resource-file src="src/ios/Resourse/Macro/PrefixHeader.pch" />
 
-
-
-
-
+        <resource-file src="src/ios/Resourse/__app.xcdatamodeld" />
 
         <header-file src="src/ios/Native.h" />
         <source-file src="src/ios/Native.m" />
+
     </platform>
 </plugin>

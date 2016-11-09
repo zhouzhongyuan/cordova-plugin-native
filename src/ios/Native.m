@@ -2,10 +2,12 @@
 #import <Cordova/CDVPlugin.h>
 
 
-#import <Availability.h>
 #import "FirstController.h"
 #import "RootNavigationController.h"
 #import "JudgeCustomerOptional.h"
+#import "Macro.h"
+#import "UIColor+Extension.h"
+#import "CoredataDelegate.h"
 
 @implementation Native
 - (void)echo: (CDVInvokedUrlCommand *) command;
@@ -18,12 +20,6 @@
 }
 
 -(void)closeView{
-    NSLog(@"echo called");
     [self.viewController dismissModalViewControllerAnimated:YES];
-    NSLog(@"echo end");
-
-
-    //    [self dismissModalViewControllerAnimated:YES];
-
 }
 @end
