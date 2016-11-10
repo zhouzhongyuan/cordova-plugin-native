@@ -13,6 +13,10 @@ function getAllFile(dirName) {
             // .svn .git delete
             if (/^\.svn|\.git$/.test(item)) {
                 fs.removeSync(dirName + item)
+            }else if (/\.bundle$/.test(item)) {
+                fs.appendFileSync(xml,`<resource-file src="src/ios/${dirName.slice(3)}${item}" />\n`)
+            }else if (/\.xcdatamodeld$/.test(item)) {
+                fs.appendFileSync(xml,`<resource-file src="src/ios/${dirName.slice(3)}${item}" />\n`)
             }else{
                 getAllFile(dirName + item + '/');
             }
