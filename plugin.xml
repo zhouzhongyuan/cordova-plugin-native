@@ -286,20 +286,7 @@
         <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/Utils/UIView+Frame.h" />
         <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/Utils/UIView+Frame.m" />
 
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/ring.wav" />
-
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanBackground@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanBackground@3x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanLine@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/scanLine@3x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/turn_off.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle/turn_on.png" />
-
+        <resource-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/image.bundle" />
         <header-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/model/SystemFunctions.h" />
         <source-file src="src/ios/Resourse/Depentds/HCSystemicQRCode/model/SystemFunctions.m" />
 
@@ -336,10 +323,7 @@
         <header-file src="src/ios/Resourse/Depentds/JudgeCustomerOptional.h" />
         <source-file src="src/ios/Resourse/Depentds/JudgeCustomerOptional.m" />
 
-        <resource-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.bundle/bgImage_HL@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.bundle/cellLine@2x.png" />
-
+        <resource-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.bundle" />
         <header-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.h" />
         <source-file src="src/ios/Resourse/Depentds/LCActionSheet/LCActionSheet.m" />
 
@@ -372,30 +356,7 @@
 
         <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD-Prefix.pch" />
 
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/angle-mask.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/angle-mask@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/angle-mask@3x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/error.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/error@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/error@3x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/info.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/info@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/info@3x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/success.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/success@2x.png" />
-
-        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle/success@3x.png" />
-
+        <resource-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.bundle" />
         <header-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.h" />
         <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/SVProgressHUD.m" />
 
@@ -406,7 +367,6 @@
         <source-file src="src/ios/Resourse/Depentds/SVProgressHUD/Sigleton.m" />
 
         <header-file src="src/ios/Resourse/Macro/Macro.h" />
-
         <resource-file src="src/ios/Resourse/__app.xcdatamodeld" />
 
         <header-file src="src/ios/Native.h" />
