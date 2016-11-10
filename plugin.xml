@@ -368,6 +368,11 @@
 
         <header-file src="src/ios/Resourse/Macro/Macro.h" />
         <resource-file src="src/ios/Resourse/__app.xcdatamodeld" />
+        <resource-file src="src/ios/Resourse/img/arrow@2x.png" />
+
+        <resource-file src="src/ios/Resourse/img/arrow@3x.png" />
+
+
 
         <header-file src="src/ios/Native.h" />
         <source-file src="src/ios/Native.m" />
