@@ -13,6 +13,7 @@
 - (void)echo: (CDVInvokedUrlCommand *) command;
 {
     FirstController *controller = [[FirstController alloc]init];
+    controller.delegate = self;
     RootNavigationController *naviVC=[[RootNavigationController alloc]initWithRootViewController:controller];
     naviVC.navigationBar.translucent = NO;
     [naviVC.navigationBar setBarTintColor:APPMAINCOLOR];
