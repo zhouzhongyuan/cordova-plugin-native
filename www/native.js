@@ -3,6 +3,6 @@ var cordova = require('cordova'),
 window.native = function (str, callback) {
     cordova.exec(callback, function (err) {
         callback('open native error.');
-    }, "EchoABC", "echo", [str]);
+    }, "Native", "open", [str]);
 };
 module.exports = window.native;

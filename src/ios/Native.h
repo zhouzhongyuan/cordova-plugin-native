@@ -2,5 +2,5 @@
 #import "CloseDelegate.h"
 
 @interface Native : CDVPlugin<CloseDelegate>
-- (void) echo:(CDVInvokedUrlCommand *) command;
+- (void) open:(CDVInvokedUrlCommand *) command;
 @end

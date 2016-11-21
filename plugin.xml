@@ -10,7 +10,7 @@
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="EchoABC">  <!--javascript中的第二个参数(Echo),可随意设置-->
+            <feature name="Native">  <!--javascript中的第二个参数(Echo),可随意设置-->
                 <param name="ios-package" value="Native"/>  <!--value: 类名,因为Native.h中定义了Native类,所以此处不可变-->
             </feature>
         </config-file>

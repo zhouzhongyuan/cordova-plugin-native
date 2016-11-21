@@ -10,7 +10,7 @@
 #import "CoredataDelegate.h"
 
 @implementation Native
-- (void)echo: (CDVInvokedUrlCommand *) command;
+- (void)open: (CDVInvokedUrlCommand *) command;
 {
     FirstController *controller = [[FirstController alloc]init];
     controller.delegate = self;
