@@ -2,12 +2,12 @@
 #import <Cordova/CDVPlugin.h>
 
 
-#import "FirstController.h"
-#import "RootNavigationController.h"
-#import "JudgeCustomerOptional.h"
-#import "Macro.h"
-#import "UIColor+Extension.h"
-#import "CoredataDelegate.h"
+#import <ZJNative/FirstController.h>
+#import <ZJNative/RootNavigationController.h>
+#import <ZJNative/JudgeCustomerOptional.h>
+#import <ZJNative/Macro.h>
+#import <ZJNative/UIColor+Extension.h>
+#import <ZJNative/CoredataDelegate.h>
 
 @implementation Native
 - (void)open: (CDVInvokedUrlCommand *) command;

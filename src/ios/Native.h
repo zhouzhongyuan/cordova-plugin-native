@@ -1,5 +1,5 @@
 #import <Cordova/CDVPlugin.h>
-#import "CloseDelegate.h"
+#import <ZJNative/CloseDelegate.h>
 
 @interface Native : CDVPlugin<CloseDelegate>
 - (void) open:(CDVInvokedUrlCommand *) command;
