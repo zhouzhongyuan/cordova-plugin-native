@@ -4,6 +4,7 @@
     <name>Native</name>
     <description>Cordova Native Plugin</description>
     <license>Apache 2.0</license>
+    <hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
     <keywords>cordova,native</keywords>
     <js-module src="www/native.js" name="native"> <!--name: 使用cordova.require才有作用,任意-->
         <clobbers target="native" /> <!--clobbers: javascript文件中module.exports 的别名,可以是zhongyuan等任意值-->
