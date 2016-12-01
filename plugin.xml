@@ -15,7 +15,6 @@
             </feature>
         </config-file>
         <framework src="src/ios/Resourse/ZJNative.framework"  custom="true" embed="true"/>
-        <resource-file src="src/ios/Resourse/__app.xcdatamodeld" />
         <resource-file src="src/ios/Resourse/ZJNativeBundle.bundle" />
 
         <header-file src="src/ios/Native.h" />
