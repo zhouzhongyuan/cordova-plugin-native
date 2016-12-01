@@ -1,0 +1,6 @@
+framework module ZJNative {
+  umbrella header "ZJNative.h"
+
+  export *
+  module * { export * }
+}

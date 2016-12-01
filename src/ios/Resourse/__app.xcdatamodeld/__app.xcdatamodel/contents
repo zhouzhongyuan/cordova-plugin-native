@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="CustomerGroupModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CustomerModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distributionChannel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="route" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salecode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saletype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DistributionChannelModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MaterialGroupModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MaterialModel" syncable="YES">
+        <attribute name="barcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="basicunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bigscale" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bigunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="midscale" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="midunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="series" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spec" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MaterialPriceModel" syncable="YES">
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pricetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="validdateend" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="validdatefrom" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlaceOrderGoodModel" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bigunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="midunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesRule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smallunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stockQuantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlaceOrderModel" syncable="YES">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isUp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staffName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PromotionGoodModel" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ruleCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ruleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PromotionModel" syncable="YES">
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customercode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salescode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PromotionRuleModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PromotionTypeModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RetreatOrderGoodModel" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="basicunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="batchnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bigunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateofmanufacture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="material" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="midunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smallunit" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RetreatOrderModel" syncable="YES">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image1" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="image2" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="image3" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="image4" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageUrl1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isUp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="returnReason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="returnReasonName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staffName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalquantity" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ReturnReasonModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StockModel" syncable="YES">
+        <attribute name="advent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expired" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="normal" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserModel" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companycode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lasttime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CustomerGroupModel" positionX="-36" positionY="144" width="128" height="75"/>
+        <element name="CustomerModel" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="DistributionChannelModel" positionX="-27" positionY="153" width="128" height="75"/>
+        <element name="MaterialGroupModel" positionX="-27" positionY="135" width="128" height="75"/>
+        <element name="MaterialModel" positionX="-27" positionY="126" width="128" height="210"/>
+        <element name="MaterialPriceModel" positionX="-36" positionY="144" width="128" height="165"/>
+        <element name="PlaceOrderGoodModel" positionX="-27" positionY="153" width="128" height="285"/>
+        <element name="PlaceOrderModel" positionX="-45" positionY="135" width="128" height="180"/>
+        <element name="PromotionGoodModel" positionX="-45" positionY="36" width="128" height="135"/>
+        <element name="PromotionModel" positionX="-36" positionY="54" width="128" height="240"/>
+        <element name="PromotionRuleModel" positionX="-27" positionY="63" width="128" height="90"/>
+        <element name="PromotionTypeModel" positionX="-45" positionY="54" width="128" height="75"/>
+        <element name="RetreatOrderGoodModel" positionX="0" positionY="171" width="128" height="240"/>
+        <element name="RetreatOrderModel" positionX="-18" positionY="162" width="128" height="345"/>
+        <element name="ReturnReasonModel" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="StockModel" positionX="-45" positionY="135" width="128" height="135"/>
+        <element name="UserModel" positionX="-45" positionY="135" width="128" height="120"/>
+    </elements>
+</model>
