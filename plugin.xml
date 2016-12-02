@@ -4,12 +4,12 @@
     <name>Native</name>
     <description>Cordova Native Plugin</description>
     <license>Apache 2.0</license>
-    <hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
     <keywords>cordova,native</keywords>
     <js-module src="www/native.js" name="native"> <!--name: 使用cordova.require才有作用,任意-->
         <clobbers target="native" /> <!--clobbers: javascript文件中module.exports 的别名,可以是zhongyuan等任意值-->
     </js-module>
     <platform name="ios">
+        <hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
         <config-file target="config.xml" parent="/*">
             <feature name="Native">  <!--javascript中的第二个参数(Echo),可随意设置-->
                 <param name="ios-package" value="Native"/>  <!--value: 类名,因为Native.h中定义了Native类,所以此处不可变-->
@@ -21,5 +21,38 @@
         <header-file src="src/ios/Native.h" />
         <source-file src="src/ios/Native.m" />
 
+    </platform>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="Native">
+                <param name="android-package" value="com.cordova.nativeapp.NativeApp"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/com/cordova/nativeapp/NativeApp.java" target-dir="src/com/cordova/nativeapp"/>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <!--首页-->
+            <activity android:name="com.cordova.plugin.nativeapp.HomeActivity">
+                <intent-filter>
+                    <action android:name="com.native.HomeActivity" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-feature android:name="android.hardware.camera" android:required="true" />
+            <uses-feature android:name="android.hardware.camera.autofocus" />
+            <uses-permission android:name="android.permission.VIBRATE" />
+            <uses-permission android:name="android.permission.CAMERA" />
+            <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+            <uses-permission android:name="android.permission.FLASHLIGHT" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+            <permission android:name="com.ourslook.wuliu.permission.JPUSH_MESSAGE"
+                        android:protectionLevel="signature" />
+        </config-file>
+        <framework src="src/android/libs/nativeapp.gradle" custom="true" type="gradleReference"/>
+        <resource-file src="src/android/libs/nativeapp.aar" target="libs/nativeapp.aar" />
     </platform>
 </plugin>
