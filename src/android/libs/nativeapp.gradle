@@ -8,6 +8,7 @@ repositories{
 }
 
 dependencies {
+    classpath 'org.greenrobot:greendao-gradle-plugin:3.2.1'
     compile(name:'nativeapp', ext:'aar')
 
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
