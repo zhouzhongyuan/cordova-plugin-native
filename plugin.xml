@@ -9,7 +9,7 @@
         <clobbers target="native" /> <!--clobbers: javascript文件中module.exports 的别名,可以是zhongyuan等任意值-->
     </js-module>
     <platform name="ios">
-        <hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
+        <hook type="before_prepare" src="hooks/after_plugin_install.js" />
         <config-file target="config.xml" parent="/*">
             <feature name="Native">  <!--javascript中的第二个参数(Echo),可随意设置-->
                 <param name="ios-package" value="Native"/>  <!--value: 类名,因为Native.h中定义了Native类,所以此处不可变-->
