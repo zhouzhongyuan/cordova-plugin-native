@@ -1,5 +1,6 @@
 # Android说明
 
+## 不要使用Android-25，最高使用23.0.1
 ## 文件
 - nativeapp.aar
 - nativeapp.gradle
@@ -32,12 +33,15 @@ compile 'com.android.support:recyclerview-v7:23.0.1'
 ```
 
 com.karumi:dexter版本：
+
 ~~compile 'com.karumi:dexter:4.0.0'~~
 compile 'com.karumi:dexter:2.4.0'
 
 ### nativeapp(文件夹)
 - 独立的Android项目
+- 注意版本。
 
 ### nativeapp-test(文件夹)
 - 独立的Android项目
 - 调用的时候的activity的name必须是`cordova.plugin.nativeapp.HomeActivity
+- 注意版本。
