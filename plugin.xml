@@ -32,7 +32,7 @@
         <source-file src="src/android/com/cordova/nativeapp/NativeApp.java" target-dir="src/com/cordova/nativeapp"/>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <!--首页-->
-            <activity android:name="com.cordova.plugin.nativeapp.HomeActivity">
+            <activity android:name="cordova.plugin.nativeapp.HomeActivity">
                 <intent-filter>
                     <action android:name="com.native.HomeActivity" />
                     <category android:name="android.intent.category.DEFAULT" />
