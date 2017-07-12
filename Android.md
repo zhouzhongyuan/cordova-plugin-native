@@ -4,8 +4,8 @@
 ## 文件
 - nativeapp.aar
 - nativeapp.gradle
-- 生成nativeapp.aar的源代码文件夹(文件夹/Project名称为nativeapp)
-- 测试调用的nativeapp.aar的文件夹(文件夹/Project名称为nativeapp-test)
+- nativeapp文件夹。生成nativeapp.aar的源代码文件夹(文件夹名称和Project名称都为nativeapp)
+- ativeapp-test文件夹。测试调用的nativeapp.aar的文件夹(文件夹名称和Project名称都为nativeapp-test)
 
 把上述4个文件/文件夹放在zijiang文件夹下，压缩成zijiang.zip，通过QQ发送。
 
