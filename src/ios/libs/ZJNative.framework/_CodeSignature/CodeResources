@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		Ocy2yihqu40cYchc7oj0mMrsXwk=
-		</data>
-		<key>ActivityCell.nib</key>
-		<data>
-		W76XGZMuat4NYu5zGI6lRMIsPvY=
-		</data>
 		<key>Headers/CloseDelegate.h</key>
 		<data>
 		66C2G+vuaJ9psfv88Yco1aghLL4=
@@ -50,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FVSM6GLa8B4QzrwP2E3m9VB1+gU=
+		YHRW5fsLd2GLV713ieYAMRllA+8=
 		</data>
 		<key>LCActionSheet.bundle/bgImage_HL@2x.png</key>
 		<data>
@@ -60,41 +52,13 @@
 		<data>
 		ight+BXOkC9ftdMGTZH7orkEodI=
 		</data>
-		<key>ManagementCollectionCell.nib</key>
-		<data>
-		Onv4ERT7plOMj/z6+0VFX19J8ow=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Zamy7EWVShzUQNWMtZY17v+QsTA=
 		</data>
-		<key>PhotographCell.nib</key>
-		<data>
-		3mJ23J8bTh2RREFF2ZFD3Q5TPtI=
-		</data>
-		<key>PlaceOrderListCell.nib</key>
-		<data>
-		/qtcqPEkToErCl+27GOdVW5NZ50=
-		</data>
 		<key>PopupView.nib</key>
 		<data>
-		zitGHoCApycIScqi3Bibyg1X8yU=
-		</data>
-		<key>PriceCell.nib</key>
-		<data>
-		3ToFu8IlEarKck/ACG3Vt3/JBcw=
-		</data>
-		<key>PromotionCell.nib</key>
-		<data>
-		ufrmu0wTcl/RD6E8EAi91Z6G25Y=
-		</data>
-		<key>PromotionGoodCell.nib</key>
-		<data>
-		9OnzUSrh7f6dLS2ehC/W78XEMho=
-		</data>
-		<key>RetreatGoodCell.nib</key>
-		<data>
-		2EoiVVVX56GPTPgk0xjrGE+0yw0=
+		p3RiAX5O29osxX24VJeHCKgcJl0=
 		</data>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -144,45 +108,9 @@
 		<data>
 		ktkPsgjbXsEzUyaptquUISBzqro=
 		</data>
-		<key>StockCell.nib</key>
-		<data>
-		Hgj1hV+vk6js3JA1PTtYPZaCk4w=
-		</data>
 		<key>WinJoinView.nib</key>
 		<data>
-		vqg+SkC5tQoNPDhynVg/ert0f18=
-		</data>
-		<key>WorkDetailSecondCell.nib</key>
-		<data>
-		jmWpziu1bjAfRbLth9DTHvtbcuA=
-		</data>
-		<key>image.bundle/ring.wav</key>
-		<data>
-		dNWgV22lpr1vKh4oT8pSarLf/YM=
-		</data>
-		<key>image.bundle/scanBackground@2x.png</key>
-		<data>
-		Zy06vMq5FvE09cOWl707BkE239g=
-		</data>
-		<key>image.bundle/scanBackground@3x.png</key>
-		<data>
-		ip8/SWISu2ldQib6k/ari0z56+k=
-		</data>
-		<key>image.bundle/scanLine@2x.png</key>
-		<data>
-		t547ieKdCedi8TapWzGf2ugqK1w=
-		</data>
-		<key>image.bundle/scanLine@3x.png</key>
-		<data>
-		lKzYYgKbfjT9NAEmS8K1VV5Oyko=
-		</data>
-		<key>image.bundle/turn_off.png</key>
-		<data>
-		/7ZO5m4FdwOD5S30Kv5xwVbT4Dw=
-		</data>
-		<key>image.bundle/turn_on.png</key>
-		<data>
-		Bv7A3YZqoV2cV4zOHwYLBchRYDM=
+		5NUZYJq6gQppnyVgJYiLYVW+dJA=
 		</data>
 		<key>ios-build-framework-script.sh</key>
 		<data>
@@ -191,17 +119,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ActivityCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W76XGZMuat4NYu5zGI6lRMIsPvY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ta7ayR7fp171eVnI1DOdD9VJOs0eR2Y3NBTDWP3KKbw=
-			</data>
-		</dict>
 		<key>Headers/CloseDelegate.h</key>
 		<dict>
 			<key>hash</key>
@@ -323,17 +240,6 @@
 			n/CRTxlwd1x1ikn8O1Xc1st52pCK1yDViTv3WEjW9RU=
 			</data>
 		</dict>
-		<key>ManagementCollectionCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Onv4ERT7plOMj/z6+0VFX19J8ow=
-			</data>
-			<key>hash2</key>
-			<data>
-			+QL9ESvVnrvU6L5PLjYfySCu/hF7mz6n6C+XoMe5F2o=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -345,81 +251,15 @@
 			JWNtiu8cD5huR/bOGuLVcTK5qPBVzx/+30dRH1f27zM=
 			</data>
 		</dict>
-		<key>PhotographCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3mJ23J8bTh2RREFF2ZFD3Q5TPtI=
-			</data>
-			<key>hash2</key>
-			<data>
-			Qlf4phX64NblzaIwTmFhte/OjPbX+UTtsXyoruqUifk=
-			</data>
-		</dict>
-		<key>PlaceOrderListCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/qtcqPEkToErCl+27GOdVW5NZ50=
-			</data>
-			<key>hash2</key>
-			<data>
-			ku1/RsL4pTp6nMAUGfDd4WkoDrcvozOO/FIYgEA+N+w=
-			</data>
-		</dict>
 		<key>PopupView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zitGHoCApycIScqi3Bibyg1X8yU=
+			p3RiAX5O29osxX24VJeHCKgcJl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ECDGreFbnH4dLxZXNT3bW82Es+Wt/sR/OCuKpYkSTF8=
-			</data>
-		</dict>
-		<key>PriceCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3ToFu8IlEarKck/ACG3Vt3/JBcw=
-			</data>
-			<key>hash2</key>
-			<data>
-			TAGDtwGEo0KRS8jnrNWmcOcy6oRByHdYv+86MHML/Qs=
-			</data>
-		</dict>
-		<key>PromotionCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ufrmu0wTcl/RD6E8EAi91Z6G25Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			Iv9+BplJy1UbzTWtLZe5/jJ2q21nkv14lTRH2EstKA4=
-			</data>
-		</dict>
-		<key>PromotionGoodCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9OnzUSrh7f6dLS2ehC/W78XEMho=
-			</data>
-			<key>hash2</key>
-			<data>
-			IbPqMtF4EtnKTOeNGy43fxaucR/a9pO5JYZGBdAHOKw=
-			</data>
-		</dict>
-		<key>RetreatGoodCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2EoiVVVX56GPTPgk0xjrGE+0yw0=
-			</data>
-			<key>hash2</key>
-			<data>
-			WkHYma5+624oTyBHtnIuT9WH26BL2iOruX8vKB3+XwM=
+			OPM0sqI9SY22J2OmrrhsgiUImiwt9+g8nF7lixScGRc=
 			</data>
 		</dict>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
@@ -554,114 +394,15 @@
 			Ai4YuKg3Kdeno2XYmylm/q00pDLBG0pt8wTNaxWcVEA=
 			</data>
 		</dict>
-		<key>StockCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Hgj1hV+vk6js3JA1PTtYPZaCk4w=
-			</data>
-			<key>hash2</key>
-			<data>
-			ASPfQo/pIfctT7zTOXtoa1o5Sl2nW09SMAAy1PPtp4w=
-			</data>
-		</dict>
 		<key>WinJoinView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vqg+SkC5tQoNPDhynVg/ert0f18=
+			5NUZYJq6gQppnyVgJYiLYVW+dJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tcfL/Cknlm3iOw7QsTzFuDkp2lQUcAwk86jV0GkHYdo=
-			</data>
-		</dict>
-		<key>WorkDetailSecondCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jmWpziu1bjAfRbLth9DTHvtbcuA=
-			</data>
-			<key>hash2</key>
-			<data>
-			UYp8d1aPkKWLOkECRQLZfinZqFgWTpb84JKlN3LRprg=
-			</data>
-		</dict>
-		<key>image.bundle/ring.wav</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dNWgV22lpr1vKh4oT8pSarLf/YM=
-			</data>
-			<key>hash2</key>
-			<data>
-			2SCn18GEIUBx5WRNDVMp9l9F6zXjZkJ8geO8ppL4yMs=
-			</data>
-		</dict>
-		<key>image.bundle/scanBackground@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Zy06vMq5FvE09cOWl707BkE239g=
-			</data>
-			<key>hash2</key>
-			<data>
-			VVVfMRM9d0vc6okNY0R5t/ZcXqJoABR3W43n3vUGLXk=
-			</data>
-		</dict>
-		<key>image.bundle/scanBackground@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ip8/SWISu2ldQib6k/ari0z56+k=
-			</data>
-			<key>hash2</key>
-			<data>
-			0SUbuBP9pdIZ+NHu1vpq2BTCTlkx7h72cqyFVY6Zodg=
-			</data>
-		</dict>
-		<key>image.bundle/scanLine@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t547ieKdCedi8TapWzGf2ugqK1w=
-			</data>
-			<key>hash2</key>
-			<data>
-			15W8B+VHK+YFEo7EJpl7Eqa4PKaxV3SzlDv6L0hkuKE=
-			</data>
-		</dict>
-		<key>image.bundle/scanLine@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lKzYYgKbfjT9NAEmS8K1VV5Oyko=
-			</data>
-			<key>hash2</key>
-			<data>
-			KuBezHXwrhuAP7fjDTcIrloW1Ij/x0k6+1Mtl7k9QqI=
-			</data>
-		</dict>
-		<key>image.bundle/turn_off.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/7ZO5m4FdwOD5S30Kv5xwVbT4Dw=
-			</data>
-			<key>hash2</key>
-			<data>
-			nHzIsEgFtTpuBLdYCVIi5+wCX2vHrP1KcNGtCm0rFBg=
-			</data>
-		</dict>
-		<key>image.bundle/turn_on.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Bv7A3YZqoV2cV4zOHwYLBchRYDM=
-			</data>
-			<key>hash2</key>
-			<data>
-			MdcvBEVn54qLiUa/3yD0utDgsC+PrHaCdOybhw0DTT4=
+			VrB4VkG5e8s8cIE7sT1Ymngmeva1hp8+lnbS+bgir8c=
 			</data>
 		</dict>
 		<key>ios-build-framework-script.sh</key>
