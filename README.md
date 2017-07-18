@@ -16,7 +16,7 @@
 - `nativeapp.aar` 和 `nativeapp.gradle`
 - 所在文件夹`cordova-plugin-native/src/android/libs`
 
-#####ios: 
+##### ios: 
 - 文件：`ZJNative.framework`, `ZJNativeBundle.bundle`
 - 所在文件夹`cordova-plugin-native/src/ios/libs/`
 
