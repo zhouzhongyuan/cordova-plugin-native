@@ -5,6 +5,28 @@
 - [iOS](./iOS.md)
 - [Android](./Android.md)
 
+## Android/iOS开发人员指南
+(以Android为例)
+
+### 1.更新Android的aar和gradle
+- [github地址](https://github.com/zhouzhongyuan/cordova-plugin-native)
+- 所在文件夹`cordova-plugin-native/src/android/libs`
+
+### 2. 打包
+- [打包网站地址](https://dev.bokesoft.com/yigomobile/main)
+
+- 打开[task 1500341106000](https://dev.bokesoft.com/yigomobile/add?taskid=1500341106000)
+- 无须做任何修改,点击『打包』按钮。
+- 等待大约5~10分钟，去[历史](https://dev.bokesoft.com/yigomobile/history)中找到你刚才打的包。
+
+### 3. 自行测试
+
+如果测试发现问题，重复 步骤1 和 步骤2
+
+
+
+
+
 
 ## 旧
 
