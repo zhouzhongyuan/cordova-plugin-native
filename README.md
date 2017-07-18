@@ -5,17 +5,38 @@
 - [iOS](./iOS.md)
 - [Android](./Android.md)
 
-## Android/iOS开发人员指南
-(以Android为例)
 
-### 1.更新Android的aar和gradle
-- [github地址](https://github.com/zhouzhongyuan/cordova-plugin-native)
+## 解决bug流程
+1. @叁認壹木提出bug
+2. @贱莮孒 和 @两极 自行解决问题
+3. 通过自测流程进行测试
+4. 测试成功，告知 @叁認壹木 和 中原(工作)
+
+
+## Android/iOS开发人员指南(自测)
+
+
+### 1.更新约定文件
+
+[github地址](https://github.com/zhouzhongyuan/cordova-plugin-native)
+
+#### Android：
+- `nativeapp.aar` 和 `nativeapp.gradle`
 - 所在文件夹`cordova-plugin-native/src/android/libs`
 
-### 2. 打包
-- [打包网站地址](https://dev.bokesoft.com/yigomobile/main)
+#### ios: 
+- 文件：`ZJNative.framework`, `ZJNativeBundle.bundle`
+- 所在文件夹`cordova-plugin-native/src/ios/libs/`
 
-- 打开[task 1500341106000](https://dev.bokesoft.com/yigomobile/add?taskid=1500341106000)
+
+
+### 2. 打包
+
+- 打开
+  - Android:打开[task 1500341106000](https://dev.bokesoft.com/yigomobile/add?taskid=1500341106000)
+  - iOS:打开[task 1500341106000](https://dev.bokesoft.com/yigomobile/add?taskid=1500343714000)
+
+
 - 无须做任何修改,点击『打包』按钮。
 - 等待大约5~10分钟，去[历史](https://dev.bokesoft.com/yigomobile/history)中找到你刚才打的包。
 
@@ -23,7 +44,9 @@
 
 如果测试发现问题，重复 步骤1 和 步骤2
 
+### 4. 清理
 
+- 在打包网站上，删除刚才添加的任务。
 
 
 
