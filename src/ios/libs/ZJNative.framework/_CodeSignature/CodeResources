@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ActivityCell.nib</key>
+		<data>
+		X6B2IXZSeZ2O0U1odhuVUYEyW5s=
+		</data>
 		<key>Headers/CloseDelegate.h</key>
 		<data>
 		66C2G+vuaJ9psfv88Yco1aghLL4=
@@ -38,11 +42,79 @@
 		</data>
 		<key>Headers/ZJNative.h</key>
 		<data>
-		z32AL2TtTfaP2R4DfX+pmBU202o=
+		bh2cU1sSvF977sVhmpLKXkTrJ64=
+		</data>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft.png</key>
+		<data>
+		QN6deEUgQyJH5EYs6cSQ0zvGXNY=
+		</data>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png</key>
+		<data>
+		FEV/+WMMqefzlnhy+R+VDCwm2LI=
+		</data>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png</key>
+		<data>
+		0ty6z7Lc+DVv6EbMb17x6wBO1FI=
+		</data>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowRight.png</key>
+		<data>
+		qUTdEr2B4Uds5HK7tfaH3eF8gGg=
+		</data>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png</key>
+		<data>
+		gOrv0ek+tTv+38A1fsImH29pPmQ=
+		</data>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png</key>
+		<data>
+		4M1rDWOTRrCoNp/ODMQ4NeCEAM4=
+		</data>
+		<key>IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XAMtfCBPAbgSPBoutKHQwStCT48=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sMbInXsoKAUK7+dZ1n/0jF84h5o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vrhRgiujgh91e57LnlUs3rWBD9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/zh-Hans.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XAMtfCBPAbgSPBoutKHQwStCT48=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings</key>
+		<data>
+		0dhsbGPLjTzRqQAqEGZBhe3AsdM=
+		</data>
+		<key>IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings</key>
+		<data>
+		549Z0CX5jIn+3EYVDi3nSNNKeRY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YHRW5fsLd2GLV713ieYAMRllA+8=
+		lP16e0fbsWCMUVxHUuIX4K3sUyo=
 		</data>
 		<key>LCActionSheet.bundle/bgImage_HL@2x.png</key>
 		<data>
@@ -52,13 +124,53 @@
 		<data>
 		ight+BXOkC9ftdMGTZH7orkEodI=
 		</data>
+		<key>LICENSE</key>
+		<data>
+		9WzFC/cCXdvX9WhjMWyx3FHutbI=
+		</data>
+		<key>ManagementCollectionCell.nib</key>
+		<data>
+		hQeXCMwzQ6Dc049bDb1Gdj+8IR0=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Zamy7EWVShzUQNWMtZY17v+QsTA=
 		</data>
+		<key>PhotographCell.nib</key>
+		<data>
+		3lBOHS2rG50dh50OiRAFAGSjE8E=
+		</data>
+		<key>PlaceOrderListCell.nib</key>
+		<data>
+		bB+LjdFPjzu3QfHUVcmvPqvAl2w=
+		</data>
 		<key>PopupView.nib</key>
 		<data>
-		p3RiAX5O29osxX24VJeHCKgcJl0=
+		FSXCCyNa6jYdruimOLIQLCK7adM=
+		</data>
+		<key>PriceCell.nib</key>
+		<data>
+		h59kidBrbwXzzoa5Ue5bojC5MmI=
+		</data>
+		<key>PromotionCell.nib</key>
+		<data>
+		6phqvmZO/CWi6nu1YBkzNJLlloc=
+		</data>
+		<key>PromotionGoodCell.nib</key>
+		<data>
+		miJLbq/y9VmMz2zQjcV4dw6Hg1w=
+		</data>
+		<key>README.md</key>
+		<data>
+		WFYWuTqpM4DFiUf3n1kwzAZfLug=
+		</data>
+		<key>README.mdown</key>
+		<data>
+		BdguduAQGBt50V1DsL4OsugYIKI=
+		</data>
+		<key>RetreatGoodCell.nib</key>
+		<data>
+		taqim42VKxdbZGfKKZeOHX6KABw=
 		</data>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -108,17 +220,156 @@
 		<data>
 		ktkPsgjbXsEzUyaptquUISBzqro=
 		</data>
+		<key>StockCell.nib</key>
+		<data>
+		p8byTWrNwppOyHJtnOE0kBuCgH4=
+		</data>
 		<key>WinJoinView.nib</key>
 		<data>
-		5NUZYJq6gQppnyVgJYiLYVW+dJA=
+		fl6MAtDWD8zHbfiMUrKYZ8OxbuU=
+		</data>
+		<key>WorkDetailSecondCell.nib</key>
+		<data>
+		5MP2Jn19RHa+ZBPWRybrAheIJCw=
+		</data>
+		<key>__app.momd/VersionInfo.plist</key>
+		<data>
+		fGfq9cigxblj6sS/M3hDatNGCsc=
+		</data>
+		<key>__app.momd/__app.mom</key>
+		<data>
+		UBJx1/u1JlfywF8AQbzSTAslExE=
+		</data>
+		<key>__app.momd/__app.omo</key>
+		<data>
+		51EPLehNs9Op7B8e1ICvtLVYbvA=
+		</data>
+		<key>arrow@2x.png</key>
+		<data>
+		MiaJWV/Twx3S5fGnLxxra6ifzcs=
+		</data>
+		<key>arrow@3x.png</key>
+		<data>
+		m8uGnsWg5EPtSopmwVrpIWkh4Og=
+		</data>
+		<key>camera.png</key>
+		<data>
+		rQm59CNyT4nyzlbwoIpmn/PMJhQ=
+		</data>
+		<key>icon_add2x.png</key>
+		<data>
+		U/QC99HX1EPP1eGNO6W2EQERZSc=
+		</data>
+		<key>icon_add@3x.png</key>
+		<data>
+		rSXrgAz1p6Of5c3DE5npPgvKYMw=
+		</data>
+		<key>icon_backOrder.png</key>
+		<data>
+		kcLZ5niEiCU9h3VbdGriTPl9SoE=
+		</data>
+		<key>icon_backOrderList.png</key>
+		<data>
+		qB0U2r2aNjTeZWGnfeJTJmrujzs=
+		</data>
+		<key>icon_nike@2x.png</key>
+		<data>
+		Hdndwwxw5Ghmob6zFItFrQNEbBA=
+		</data>
+		<key>icon_nike@3x.png</key>
+		<data>
+		MOYiK5Bjce/LkupctTV0I9XvH5U=
+		</data>
+		<key>icon_orderList.png</key>
+		<data>
+		AgxzVkdSGtF96QeCVK4dxnMlnfA=
+		</data>
+		<key>icon_placeOrder.png</key>
+		<data>
+		UVaKEt4ZtCN7hZkjXC/IepeXzaY=
+		</data>
+		<key>icon_queryActivity.png</key>
+		<data>
+		ea01xXnEpDyXCINfibAAKL1fLRU=
+		</data>
+		<key>icon_queryPrice.png</key>
+		<data>
+		RjNaJbgCpKZ9XsHOwMUSdS35X98=
+		</data>
+		<key>icon_queryStock.png</key>
+		<data>
+		Xwx7UFl7iVQGRzrALDqlaGJ3EO4=
+		</data>
+		<key>icon_screen@2x.png</key>
+		<data>
+		f6r3BaE72fsa7TOoX+ADwuKDZMc=
+		</data>
+		<key>icon_screen@3x.png</key>
+		<data>
+		3FGvXUjDvDBT70/vbTZs9dX15TM=
+		</data>
+		<key>icon_select_circle@2x.png</key>
+		<data>
+		tVvzNpDWWhdwTsQTIIaFkKOinwE=
+		</data>
+		<key>icon_select_circle@3x.png</key>
+		<data>
+		ihCaUTmpNoCLt94Ki77lzsvFUso=
+		</data>
+		<key>icon_unselect_circle@2x.png</key>
+		<data>
+		u/9t9gNGlzFKEJy0LFWXJmrg75Q=
+		</data>
+		<key>icon_unselect_circle@3x.png</key>
+		<data>
+		nlakaz2g4OwfOgb9aazCtGpAP9c=
+		</data>
+		<key>image.bundle/ring.wav</key>
+		<data>
+		dNWgV22lpr1vKh4oT8pSarLf/YM=
+		</data>
+		<key>image.bundle/scanBackground@2x.png</key>
+		<data>
+		Zy06vMq5FvE09cOWl707BkE239g=
+		</data>
+		<key>image.bundle/scanBackground@3x.png</key>
+		<data>
+		ip8/SWISu2ldQib6k/ari0z56+k=
+		</data>
+		<key>image.bundle/scanLine@2x.png</key>
+		<data>
+		t547ieKdCedi8TapWzGf2ugqK1w=
+		</data>
+		<key>image.bundle/scanLine@3x.png</key>
+		<data>
+		lKzYYgKbfjT9NAEmS8K1VV5Oyko=
+		</data>
+		<key>image.bundle/turn_off.png</key>
+		<data>
+		/7ZO5m4FdwOD5S30Kv5xwVbT4Dw=
+		</data>
+		<key>image.bundle/turn_on.png</key>
+		<data>
+		Bv7A3YZqoV2cV4zOHwYLBchRYDM=
 		</data>
 		<key>ios-build-framework-script.sh</key>
 		<data>
-		B0vkCfPJrbpH/T8Jfs3+ntaDP5E=
+		YR2wnBZcqf1ND51XBCCFzI5mjpw=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ActivityCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X6B2IXZSeZ2O0U1odhuVUYEyW5s=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZnXTsQCEISfu8boXl7UUh7AUvjUlUeNZFJCLD2pBJFs=
+			</data>
+		</dict>
 		<key>Headers/CloseDelegate.h</key>
 		<dict>
 			<key>hash</key>
@@ -211,11 +462,151 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z32AL2TtTfaP2R4DfX+pmBU202o=
+			bh2cU1sSvF977sVhmpLKXkTrJ64=
 			</data>
 			<key>hash2</key>
 			<data>
-			09QAj4kCpc3aMbj6SuJLb55iDff6Dy/dBz4QTuQQt/U=
+			zAoKvlWqQx4BuQH65bWepmY8YXPcZy0NvYffXfg4TCM=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QN6deEUgQyJH5EYs6cSQ0zvGXNY=
+			</data>
+			<key>hash2</key>
+			<data>
+			iGsXkCXYeLle5hVImTVLMiLRDrguIsLDd5EdTbWaSnY=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FEV/+WMMqefzlnhy+R+VDCwm2LI=
+			</data>
+			<key>hash2</key>
+			<data>
+			awBt50hVmNGyePSLBYZzTCvyTZgXpi7YDu6L7UyS53Y=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0ty6z7Lc+DVv6EbMb17x6wBO1FI=
+			</data>
+			<key>hash2</key>
+			<data>
+			IiKVdDiE/LEQzMH9eHqQVlo6CGZfrsW/OT/n+/KzCHk=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowRight.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qUTdEr2B4Uds5HK7tfaH3eF8gGg=
+			</data>
+			<key>hash2</key>
+			<data>
+			MoO9Y7C9OTHz8BHZaTZ1QiBKSqim/dk5CPNdcBfN2QM=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gOrv0ek+tTv+38A1fsImH29pPmQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			YWxGn20RL2/1XhKnQIc2kTl+0H50DQ+BqxZ+HTReBoE=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4M1rDWOTRrCoNp/ODMQ4NeCEAM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			YqYHh7YYvrvLod2iNkX2ja8Uv4W5I2qx8HwBmA3C7EM=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XAMtfCBPAbgSPBoutKHQwStCT48=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vdo0WXHxpKFIkOhvqAtVNWCpcrtLWrAlXIf++P8fCPg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sMbInXsoKAUK7+dZ1n/0jF84h5o=
+			</data>
+			<key>hash2</key>
+			<data>
+			p0u9BJJ+NrPaXvSsJR2ZrP4qofaLSvkytiUOwKKUaG8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vrhRgiujgh91e57LnlUs3rWBD9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			cCsxCINHvDElne9wgRj83RpGsQMDPNXbtUnZv04y118=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/zh-Hans.lproj/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XAMtfCBPAbgSPBoutKHQwStCT48=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vdo0WXHxpKFIkOhvqAtVNWCpcrtLWrAlXIf++P8fCPg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0dhsbGPLjTzRqQAqEGZBhe3AsdM=
+			</data>
+			<key>hash2</key>
+			<data>
+			te3qioWokz9VNvNx048uvM1cLoGJYGBWmzzYqPPgA6s=
+			</data>
+		</dict>
+		<key>IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			549Z0CX5jIn+3EYVDi3nSNNKeRY=
+			</data>
+			<key>hash2</key>
+			<data>
+			G2mDEDaj2cWyLbZIXakKX87Jux64L8OKYIMSzHYV0HE=
 			</data>
 		</dict>
 		<key>LCActionSheet.bundle/bgImage_HL@2x.png</key>
@@ -240,6 +631,28 @@
 			n/CRTxlwd1x1ikn8O1Xc1st52pCK1yDViTv3WEjW9RU=
 			</data>
 		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9WzFC/cCXdvX9WhjMWyx3FHutbI=
+			</data>
+			<key>hash2</key>
+			<data>
+			XctYWiiro+8jvObwCprtZjxv08Sk/OeFmQX9QeUL1ro=
+			</data>
+		</dict>
+		<key>ManagementCollectionCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hQeXCMwzQ6Dc049bDb1Gdj+8IR0=
+			</data>
+			<key>hash2</key>
+			<data>
+			+D+I8AcvU8joUf6Odp6XGSQSTVbG5sg4P4etR/cOSZs=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -251,15 +664,103 @@
 			JWNtiu8cD5huR/bOGuLVcTK5qPBVzx/+30dRH1f27zM=
 			</data>
 		</dict>
+		<key>PhotographCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3lBOHS2rG50dh50OiRAFAGSjE8E=
+			</data>
+			<key>hash2</key>
+			<data>
+			4zBc6CTQ/gu+nWZptRgNtnmSbojXm/CyPFuzddOVaYY=
+			</data>
+		</dict>
+		<key>PlaceOrderListCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bB+LjdFPjzu3QfHUVcmvPqvAl2w=
+			</data>
+			<key>hash2</key>
+			<data>
+			3NB2YLvURwi8ncRr3yDpuOsCoqQV0ZjiNnUYqUnb/d8=
+			</data>
+		</dict>
 		<key>PopupView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p3RiAX5O29osxX24VJeHCKgcJl0=
+			FSXCCyNa6jYdruimOLIQLCK7adM=
 			</data>
 			<key>hash2</key>
 			<data>
-			OPM0sqI9SY22J2OmrrhsgiUImiwt9+g8nF7lixScGRc=
+			xW0AutO8sTtNaIHIB2Pi/zxF+z0qkAOvde6Mfh15Pho=
+			</data>
+		</dict>
+		<key>PriceCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h59kidBrbwXzzoa5Ue5bojC5MmI=
+			</data>
+			<key>hash2</key>
+			<data>
+			a8rYDKTKBbz+2xaJpUqEjDzzaFeWBCI392k97TnMPeU=
+			</data>
+		</dict>
+		<key>PromotionCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6phqvmZO/CWi6nu1YBkzNJLlloc=
+			</data>
+			<key>hash2</key>
+			<data>
+			PmORsIVne0zbX9HkXu4etOs67bJuBklgRsOfbgt94LU=
+			</data>
+		</dict>
+		<key>PromotionGoodCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			miJLbq/y9VmMz2zQjcV4dw6Hg1w=
+			</data>
+			<key>hash2</key>
+			<data>
+			2NUgV5fMIhkjMmf0z2w7y+vM7mXqw9SNSMn09NN8J9E=
+			</data>
+		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WFYWuTqpM4DFiUf3n1kwzAZfLug=
+			</data>
+			<key>hash2</key>
+			<data>
+			0khsMjS7OYa66mDToCb/9fjLDYgoHe7fPo1HXyvBy6A=
+			</data>
+		</dict>
+		<key>README.mdown</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BdguduAQGBt50V1DsL4OsugYIKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Pbd6uIUcROy15cgyN86yaWHStSm0fL8Fb+i2XAzhAwk=
+			</data>
+		</dict>
+		<key>RetreatGoodCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			taqim42VKxdbZGfKKZeOHX6KABw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ww88tw5Hpceh47OMCWDsFnAws6Ejz6smniWk5xA/Zz4=
 			</data>
 		</dict>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
@@ -394,26 +895,378 @@
 			Ai4YuKg3Kdeno2XYmylm/q00pDLBG0pt8wTNaxWcVEA=
 			</data>
 		</dict>
+		<key>StockCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p8byTWrNwppOyHJtnOE0kBuCgH4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qe0YFyPEkYXzjN63A0+qVGAMTF21Tuc1GCkd2yyqwVU=
+			</data>
+		</dict>
 		<key>WinJoinView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5NUZYJq6gQppnyVgJYiLYVW+dJA=
+			fl6MAtDWD8zHbfiMUrKYZ8OxbuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VrB4VkG5e8s8cIE7sT1Ymngmeva1hp8+lnbS+bgir8c=
+			A+KuHTnAg+XavGmbwCW3N8F5eZhKwiJQ6LWiX31ijyM=
+			</data>
+		</dict>
+		<key>WorkDetailSecondCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5MP2Jn19RHa+ZBPWRybrAheIJCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tg/qvn6ZBu39qUii+hpvyPvPZL5qFH4o21X4YLIWFz0=
+			</data>
+		</dict>
+		<key>__app.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fGfq9cigxblj6sS/M3hDatNGCsc=
+			</data>
+			<key>hash2</key>
+			<data>
+			DcMB+0wyGdP8pVafkFp8l6C5Ji4ylv+OGjkneANVtmY=
+			</data>
+		</dict>
+		<key>__app.momd/__app.mom</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UBJx1/u1JlfywF8AQbzSTAslExE=
+			</data>
+			<key>hash2</key>
+			<data>
+			9KQPYzTH3Tjn8fiM5b/dw7xexwL39QhsvMSAhquvfc8=
+			</data>
+		</dict>
+		<key>__app.momd/__app.omo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			51EPLehNs9Op7B8e1ICvtLVYbvA=
+			</data>
+			<key>hash2</key>
+			<data>
+			oA44wthMSNQWZuBaKteamfTPB63qmSHwBEii3tJTv7M=
+			</data>
+		</dict>
+		<key>arrow@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiaJWV/Twx3S5fGnLxxra6ifzcs=
+			</data>
+			<key>hash2</key>
+			<data>
+			gE3RvFoXwLd4vPAedmc6d4efTqTxHCUabOxmc9QQ2Rg=
+			</data>
+		</dict>
+		<key>arrow@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m8uGnsWg5EPtSopmwVrpIWkh4Og=
+			</data>
+			<key>hash2</key>
+			<data>
+			lbfuYxyqFAFGOTfKhtrnqwxk85T+C2OnTHOBcYX6Wic=
+			</data>
+		</dict>
+		<key>camera.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rQm59CNyT4nyzlbwoIpmn/PMJhQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			25nbTi1wC0v1EnLlfZ5Nm+EIWKTSYwc0KA5Duh2SRBk=
+			</data>
+		</dict>
+		<key>icon_add2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U/QC99HX1EPP1eGNO6W2EQERZSc=
+			</data>
+			<key>hash2</key>
+			<data>
+			pgpVjFwlzlqzfdH3reHXycCcqzqjMsM4Ha2cDEhVZe4=
+			</data>
+		</dict>
+		<key>icon_add@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rSXrgAz1p6Of5c3DE5npPgvKYMw=
+			</data>
+			<key>hash2</key>
+			<data>
+			IynPTcR+EfZYDkRaQCApZ3mXB00JGikKdC1i9wRlIqk=
+			</data>
+		</dict>
+		<key>icon_backOrder.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kcLZ5niEiCU9h3VbdGriTPl9SoE=
+			</data>
+			<key>hash2</key>
+			<data>
+			E9D/iUZ99v164wBu+T3sxf9bTKNzHs41vcLDROgBT8M=
+			</data>
+		</dict>
+		<key>icon_backOrderList.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qB0U2r2aNjTeZWGnfeJTJmrujzs=
+			</data>
+			<key>hash2</key>
+			<data>
+			MaKc2R1rMxagn54Uw4rkZEg2iQ9Z1/bt3UcpE3XabDw=
+			</data>
+		</dict>
+		<key>icon_nike@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hdndwwxw5Ghmob6zFItFrQNEbBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			YqLmDV44i3ecOIypkDZ/ce1jrZ8lRdwx7uMj9pipWNk=
+			</data>
+		</dict>
+		<key>icon_nike@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MOYiK5Bjce/LkupctTV0I9XvH5U=
+			</data>
+			<key>hash2</key>
+			<data>
+			mvB8mm+TmDaL8P9tjMeS4ffdyxmnAjzDoT5BQVDN8fc=
+			</data>
+		</dict>
+		<key>icon_orderList.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AgxzVkdSGtF96QeCVK4dxnMlnfA=
+			</data>
+			<key>hash2</key>
+			<data>
+			/7jknoXw1+Q2qjhH19ZwNrEMeDeV2aj3gjYEsKrVGA8=
+			</data>
+		</dict>
+		<key>icon_placeOrder.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UVaKEt4ZtCN7hZkjXC/IepeXzaY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ziLgnwsM9Y3MzeddXG6/BoGD+jsjsPPHpyX/lgK7m7g=
+			</data>
+		</dict>
+		<key>icon_queryActivity.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ea01xXnEpDyXCINfibAAKL1fLRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			JNgORHHYjpH6dnChuFtl28en4MFWEQMCXZ5hcMfGCEw=
+			</data>
+		</dict>
+		<key>icon_queryPrice.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RjNaJbgCpKZ9XsHOwMUSdS35X98=
+			</data>
+			<key>hash2</key>
+			<data>
+			O7p2gHIaj6rU5nXsV9dP+b+Isi5XxzhS/NqsA1BeuOI=
+			</data>
+		</dict>
+		<key>icon_queryStock.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xwx7UFl7iVQGRzrALDqlaGJ3EO4=
+			</data>
+			<key>hash2</key>
+			<data>
+			EKclxoPxH6raIgd6cprzP2rgOtJ/iN+DTRSJRp5+QZ4=
+			</data>
+		</dict>
+		<key>icon_screen@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f6r3BaE72fsa7TOoX+ADwuKDZMc=
+			</data>
+			<key>hash2</key>
+			<data>
+			RvBD35JP2ySgAQlZcWVzigGNjWWAooQqyc9b2lm1Rvc=
+			</data>
+		</dict>
+		<key>icon_screen@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3FGvXUjDvDBT70/vbTZs9dX15TM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q9jdHSqAGM/K3oz9xiBePGJdD7ZLzYqWggKF9kKonwo=
+			</data>
+		</dict>
+		<key>icon_select_circle@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tVvzNpDWWhdwTsQTIIaFkKOinwE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tk7FzsqTFhaInp5h0ggZY/bcixoBGG35ePLHuOmlqCw=
+			</data>
+		</dict>
+		<key>icon_select_circle@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ihCaUTmpNoCLt94Ki77lzsvFUso=
+			</data>
+			<key>hash2</key>
+			<data>
+			ood7bUdZnTXgwHwUyDoOLkf2SjGoRgch2CSNKGaQJmM=
+			</data>
+		</dict>
+		<key>icon_unselect_circle@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u/9t9gNGlzFKEJy0LFWXJmrg75Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			RBiMABoa6fyZZsL2IzxokXetTykZ/9Nf4bDmtNWfsZY=
+			</data>
+		</dict>
+		<key>icon_unselect_circle@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nlakaz2g4OwfOgb9aazCtGpAP9c=
+			</data>
+			<key>hash2</key>
+			<data>
+			r5IvBMCSPSGEXKmXvDPPdpfe5eyNVoPnWIUcYzy9A4w=
+			</data>
+		</dict>
+		<key>image.bundle/ring.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dNWgV22lpr1vKh4oT8pSarLf/YM=
+			</data>
+			<key>hash2</key>
+			<data>
+			2SCn18GEIUBx5WRNDVMp9l9F6zXjZkJ8geO8ppL4yMs=
+			</data>
+		</dict>
+		<key>image.bundle/scanBackground@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zy06vMq5FvE09cOWl707BkE239g=
+			</data>
+			<key>hash2</key>
+			<data>
+			VVVfMRM9d0vc6okNY0R5t/ZcXqJoABR3W43n3vUGLXk=
+			</data>
+		</dict>
+		<key>image.bundle/scanBackground@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ip8/SWISu2ldQib6k/ari0z56+k=
+			</data>
+			<key>hash2</key>
+			<data>
+			0SUbuBP9pdIZ+NHu1vpq2BTCTlkx7h72cqyFVY6Zodg=
+			</data>
+		</dict>
+		<key>image.bundle/scanLine@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t547ieKdCedi8TapWzGf2ugqK1w=
+			</data>
+			<key>hash2</key>
+			<data>
+			15W8B+VHK+YFEo7EJpl7Eqa4PKaxV3SzlDv6L0hkuKE=
+			</data>
+		</dict>
+		<key>image.bundle/scanLine@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lKzYYgKbfjT9NAEmS8K1VV5Oyko=
+			</data>
+			<key>hash2</key>
+			<data>
+			KuBezHXwrhuAP7fjDTcIrloW1Ij/x0k6+1Mtl7k9QqI=
+			</data>
+		</dict>
+		<key>image.bundle/turn_off.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/7ZO5m4FdwOD5S30Kv5xwVbT4Dw=
+			</data>
+			<key>hash2</key>
+			<data>
+			nHzIsEgFtTpuBLdYCVIi5+wCX2vHrP1KcNGtCm0rFBg=
+			</data>
+		</dict>
+		<key>image.bundle/turn_on.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bv7A3YZqoV2cV4zOHwYLBchRYDM=
+			</data>
+			<key>hash2</key>
+			<data>
+			MdcvBEVn54qLiUa/3yD0utDgsC+PrHaCdOybhw0DTT4=
 			</data>
 		</dict>
 		<key>ios-build-framework-script.sh</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B0vkCfPJrbpH/T8Jfs3+ntaDP5E=
+			YR2wnBZcqf1ND51XBCCFzI5mjpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7fu+MvP7zmV61mZsWOc+pAaWuub/k+hv4LBBcqdkF+Y=
+			0untvWMsnNhDrvErRv1nqxB2w5OyfqcCiWWCiNIfrfc=
 			</data>
 		</dict>
 	</dict>
