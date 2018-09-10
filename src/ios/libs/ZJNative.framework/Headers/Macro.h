@@ -33,9 +33,9 @@ CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].siz
 #endif
 //#define  kCoreDataContext  [(AppDelegate *)[[UIApplication sharedApplication] delegate] managedObjectContext]
 #define  kCoreDataContext [[CoredataDelegate standard] managedObjectContext]
-#ifndef APPDELEGATE
-#define APPDELEGATE   ((AppDelegate *)[[UIApplication sharedApplication] delegate])
-#endif
+//#ifndef APPDELEGATE
+//#define APPDELEGATE   ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+//#endif
 #define WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
 #define PAGESIZE @"10"

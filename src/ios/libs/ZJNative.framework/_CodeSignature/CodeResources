@@ -8,10 +8,6 @@
 		<data>
 		KAJVloXFrrmU99IjQ8eX9cFLads=
 		</data>
-		<key>Headers/AppDelegate.h</key>
-		<data>
-		aQ7GszRYAX/sp0squtGIHpsKlG0=
-		</data>
 		<key>Headers/CloseDelegate.h</key>
 		<data>
 		66C2G+vuaJ9psfv88Yco1aghLL4=
@@ -30,7 +26,7 @@
 		</data>
 		<key>Headers/Macro.h</key>
 		<data>
-		45tZCnsihniQHROE5PYRHGCeiIM=
+		oQ76oVtiptAdIawY3NABCii35yU=
 		</data>
 		<key>Headers/RootNavigationController.h</key>
 		<data>
@@ -43,10 +39,6 @@
 		<key>Headers/UIColor+Extension.h</key>
 		<data>
 		Khxx1+WRTP+X3GDpKwY6bVB06MU=
-		</data>
-		<key>Headers/ZJNative.h</key>
-		<data>
-		bh2cU1sSvF977sVhmpLKXkTrJ64=
 		</data>
 		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft.png</key>
 		<data>
@@ -374,17 +366,6 @@
 			TS+2GxNlnbDs6hRazEmpGKoT0aC0rOuPfiZMLQTl8a0=
 			</data>
 		</dict>
-		<key>Headers/AppDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aQ7GszRYAX/sp0squtGIHpsKlG0=
-			</data>
-			<key>hash2</key>
-			<data>
-			UIEGvN/mCvqsOMNK6zu39QYJ+hLEKOIKO+OHLYXLUjM=
-			</data>
-		</dict>
 		<key>Headers/CloseDelegate.h</key>
 		<dict>
 			<key>hash</key>
@@ -433,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			45tZCnsihniQHROE5PYRHGCeiIM=
+			oQ76oVtiptAdIawY3NABCii35yU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oOj17wd1sErGnrlxhHeEeoFZkpLyD06uJsODlGgeGrQ=
+			vB2/7DLitolj8Tp88JHHKPWEjkJ2SicXr/7lL04IIss=
 			</data>
 		</dict>
 		<key>Headers/RootNavigationController.h</key>
@@ -471,17 +452,6 @@
 			<key>hash2</key>
 			<data>
 			KNmGsDySaq75f/j/iYSsQ6inFmL8gWNgrgXG5Jkq560=
-			</data>
-		</dict>
-		<key>Headers/ZJNative.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bh2cU1sSvF977sVhmpLKXkTrJ64=
-			</data>
-			<key>hash2</key>
-			<data>
-			zAoKvlWqQx4BuQH65bWepmY8YXPcZy0NvYffXfg4TCM=
 			</data>
 		</dict>
 		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft.png</key>
