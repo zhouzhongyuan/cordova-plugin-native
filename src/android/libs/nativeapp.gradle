@@ -43,7 +43,7 @@ configurations.all {
         def requested = details.requested
         if (requested.group == 'com.android.support') {
             if (!requested.name.startsWith("multidex")) {
-                details.useVersion '23.0.1'
+                details.useVersion '23.4.0'
             }
         }
     }
