@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		3y++sUAKzaCQmjLBz2v0kvESHgc=
-		</data>
 		<key>ActivityCell.nib</key>
 		<data>
-		AkzyPBaHoGFhYwGnDGrt0JZai3E=
+		H0l0r0SpG852RJzrREPONp+XjWA=
 		</data>
 		<key>Headers/CloseDelegate.h</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>Headers/ZJNative.h</key>
 		<data>
-		DX46aC7akzBQFdNJXHZluTemPNw=
+		WyQpy1ORWPkUZ5Tm+ERZPQzSE7I=
 		</data>
 		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft.png</key>
 		<data>
@@ -134,7 +130,7 @@
 		</data>
 		<key>ManagementCollectionCell.nib</key>
 		<data>
-		xQ5xPQArj3fK/5CrFw6+QuWMyQM=
+		9nEwNn1XOqd6AKyu8hYM2MKOz28=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,27 +138,27 @@
 		</data>
 		<key>PhotographCell.nib</key>
 		<data>
-		hus+JkOAL7oiLDGceqwIIFHTGP4=
+		2P/Sl2NgsusvP0NTnDHg0uYGlBA=
 		</data>
 		<key>PlaceOrderListCell.nib</key>
 		<data>
-		7Hi1HVOrMg1roTazZOPMyLYCaJs=
+		KYnzx0ei/pxGX9m5bagIawgEeV0=
 		</data>
 		<key>PopupView.nib</key>
 		<data>
-		beXKkt+RGanHT+KSD5Zl6OeLWv8=
+		YQe6ndFxwZrmPw6mO2IBaTObn+s=
 		</data>
 		<key>PriceCell.nib</key>
 		<data>
-		MVR/JoFRkH1XaRSYKsC3hoEW06o=
+		KR0L7unFAgAvIKCPOcTjTLLjvFM=
 		</data>
 		<key>PromotionCell.nib</key>
 		<data>
-		CbENT8/9+D+y/I/fruvnBU6iStc=
+		4y24Ct4yoswkuqDZkjNKY60uWaQ=
 		</data>
 		<key>PromotionGoodCell.nib</key>
 		<data>
-		VAZFmdgTXbI+LzcCOyE34Nd9kVY=
+		ID+x98Cbh/eLXTporcxvSW6cUhc=
 		</data>
 		<key>README.md</key>
 		<data>
@@ -174,7 +170,7 @@
 		</data>
 		<key>RetreatGoodCell.nib</key>
 		<data>
-		TYm2vpxaK8ogawf0fw66jVp9oJU=
+		UVSuFvmFCEsq5RUdNr/EUfTs+qc=
 		</data>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -226,27 +222,27 @@
 		</data>
 		<key>StockCell.nib</key>
 		<data>
-		77V1Xk7SrkaeVHXHcmfHG1U8oWw=
+		Nn2lT1V7ITXAxRA7a7nfv81pl7A=
 		</data>
 		<key>WinJoinView.nib</key>
 		<data>
-		lYHDckM+S2IGC68vTwiNVRH92us=
+		5cozzwKorRtMIoMcbn4tBBI2gRc=
 		</data>
 		<key>WorkDetailSecondCell.nib</key>
 		<data>
-		TQOuzUxKvvDlj48KLcpZLkuKf50=
+		0kSGvbY/+hiVpdD1ibAUmIDkusM=
 		</data>
 		<key>__app.momd/VersionInfo.plist</key>
 		<data>
-		e3ztFU1voNFb4x7wN+Jc0sBkhg8=
+		BEUwGle03JlLdoBnrobyWBO6Gcw=
 		</data>
 		<key>__app.momd/__app.mom</key>
 		<data>
-		BEpKBQoV12pVJyxdU8ngr0qezQE=
+		y0xvECouK9Mt07isE0Sy6NGg9xo=
 		</data>
 		<key>__app.momd/__app.omo</key>
 		<data>
-		dKENJ5Boa6dUlu7FNzVE1lsd/d4=
+		Zzt6psAOPBF8Lhx/bX+fwnXVlI4=
 		</data>
 		<key>arrow@2x.png</key>
 		<data>
@@ -367,11 +363,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AkzyPBaHoGFhYwGnDGrt0JZai3E=
+			H0l0r0SpG852RJzrREPONp+XjWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			5nlRqkoLBx6jT2H9is8o8VojJZH+QQGzY+/gg8yUO6g=
+			//EOPDe4mzt/s6wkf9DaZgnIV8thGGMlxDNuquSJruA=
 			</data>
 		</dict>
 		<key>Headers/CloseDelegate.h</key>
@@ -466,11 +462,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DX46aC7akzBQFdNJXHZluTemPNw=
+			WyQpy1ORWPkUZ5Tm+ERZPQzSE7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			jSr37+nX4jwATHxWYX7bROmtQ7rxpdYrcoI37vgrlqo=
+			cS5EoBgBCYRPmoSwp0yKJ3WvHEXfRFT6LQoNtI0Lm+8=
 			</data>
 		</dict>
 		<key>IQKeyboardManager.bundle/IQButtonBarArrowLeft.png</key>
@@ -650,11 +646,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xQ5xPQArj3fK/5CrFw6+QuWMyQM=
+			9nEwNn1XOqd6AKyu8hYM2MKOz28=
 			</data>
 			<key>hash2</key>
 			<data>
-			p/7DSlZLNkT8FilZxMNddfbdcA8bT889npdmdUIzdzY=
+			dd6ttk8715PJZRDrwh9Je/wrmHsrf/U2iJSIcz+jUD4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -672,66 +668,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hus+JkOAL7oiLDGceqwIIFHTGP4=
+			2P/Sl2NgsusvP0NTnDHg0uYGlBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			p+adRXgqcHrnNHPi1UhTZ/FJ19xH3HqID6/ygP1k1vE=
+			3gkGgsVlpH1zJFkku+GPcUmwe8yOflS2Moax4+1DRug=
 			</data>
 		</dict>
 		<key>PlaceOrderListCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7Hi1HVOrMg1roTazZOPMyLYCaJs=
+			KYnzx0ei/pxGX9m5bagIawgEeV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			M4Gpz1w7YRJTRYCTF7ydEKhJ1Ynh2nuOubhgN5aF4OE=
+			U+aBvCSvfZbA53jxH6snzKWntdWD8tJyaz3uaRH/6Ow=
 			</data>
 		</dict>
 		<key>PopupView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			beXKkt+RGanHT+KSD5Zl6OeLWv8=
+			YQe6ndFxwZrmPw6mO2IBaTObn+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			JUIFxFyBwzgDSxV6WiHJAwxh8TIJ5NbJf3IhDGxhlK0=
+			0gNJi+jwbSIC7F0ph0YtvqrNOdP3lq8gcAE8jlxLh8s=
 			</data>
 		</dict>
 		<key>PriceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MVR/JoFRkH1XaRSYKsC3hoEW06o=
+			KR0L7unFAgAvIKCPOcTjTLLjvFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			54wTPUGQwc62itpz8X3x8y7zmPg8SMi3JcVgY1WBAgo=
+			Q57dRxI0qZeOw/G5C1FpbSdQXtHvYWiz+mhtVXDFAu8=
 			</data>
 		</dict>
 		<key>PromotionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CbENT8/9+D+y/I/fruvnBU6iStc=
+			4y24Ct4yoswkuqDZkjNKY60uWaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qawubj2zeGpWic1C2NSQ0PrHVc44eKZtjH2ZPNP3bcU=
+			+x60XKYCYfYCdJ77eXvKbUvYp9N7alsHiZqPo/VZ1LU=
 			</data>
 		</dict>
 		<key>PromotionGoodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VAZFmdgTXbI+LzcCOyE34Nd9kVY=
+			ID+x98Cbh/eLXTporcxvSW6cUhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NfyzdSDE5zOXhGOwBsvmjq4uXJxeRNSNTciKgU2WW2Y=
+			ObGnE42dtnKnHgmPkrbs9kYJeFgUse/YKXwRbqJ5RdE=
 			</data>
 		</dict>
 		<key>README.md</key>
@@ -760,11 +756,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TYm2vpxaK8ogawf0fw66jVp9oJU=
+			UVSuFvmFCEsq5RUdNr/EUfTs+qc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bd9OcDQRC/x2jk3KuSojTrt65fTha+SYtSC9zaOb5QA=
+			XNVrqiTsPl1N2JAF6eKRD8ViDOsz+udBjHapPqCw4Z8=
 			</data>
 		</dict>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
@@ -903,66 +899,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			77V1Xk7SrkaeVHXHcmfHG1U8oWw=
+			Nn2lT1V7ITXAxRA7a7nfv81pl7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			pxYlQ0IoR39tROrtdA5w2P7Uk0b1FOxiZKrUl5weAjo=
+			8JnGzmNACr4bPT4O8Jk90sCfrcpCjeLNgfRKWY8ttAQ=
 			</data>
 		</dict>
 		<key>WinJoinView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lYHDckM+S2IGC68vTwiNVRH92us=
+			5cozzwKorRtMIoMcbn4tBBI2gRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ksV9JiRrjJiD8kb8tjQ6MQ2YrZOVVV75wgMCTcipEz0=
+			kV98rZaeudVeSaKLxz6/euKXChiP3LDfU2Peflf6wlg=
 			</data>
 		</dict>
 		<key>WorkDetailSecondCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TQOuzUxKvvDlj48KLcpZLkuKf50=
+			0kSGvbY/+hiVpdD1ibAUmIDkusM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PC7OQFLcDEWoEBLENwCJ8r2WAdzJKOBCTAft4N9y4r8=
+			y12l5wecgHZtkIaSluMdbJsLLdSoDUCD9trx8PR0/wA=
 			</data>
 		</dict>
 		<key>__app.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e3ztFU1voNFb4x7wN+Jc0sBkhg8=
+			BEUwGle03JlLdoBnrobyWBO6Gcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			3kuARi2vFq3TaY6AsjiwJipdeRZPOQaQqK/J7c4BkrQ=
+			LLC4vb4Pl7kGKC3nN/XCG8xuuDYttQegcOwMHsFVBP8=
 			</data>
 		</dict>
 		<key>__app.momd/__app.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BEpKBQoV12pVJyxdU8ngr0qezQE=
+			y0xvECouK9Mt07isE0Sy6NGg9xo=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgzg2gbIeaQka888ALErIY2NVhpabIEW9dSE/+R3cjk=
+			Zb2pShgSEKTkCGKZArW4rXt14yh6r8+XhyVNd/Iey3I=
 			</data>
 		</dict>
 		<key>__app.momd/__app.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dKENJ5Boa6dUlu7FNzVE1lsd/d4=
+			Zzt6psAOPBF8Lhx/bX+fwnXVlI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pKQmSGXqkjjiKb0f2INWtIZpZLo92uYe7eHUl301e68=
+			ikLFf8wo6QlgvE0ZbVlRhHOKx9/3HZ/7KW6bDhPcEX0=
 			</data>
 		</dict>
 		<key>arrow@2x.png</key>
